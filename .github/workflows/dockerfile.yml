@@ -21,8 +21,8 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          docker build -t yourusername/yourimage:latest .
+          docker build -t cedrick58/dockerfile:latest .
 
       - name: Push the Docker image
         run: |
-          docker push yourusername/yourimage:latest
+          docker push cedrick58/dockerfile:latest
